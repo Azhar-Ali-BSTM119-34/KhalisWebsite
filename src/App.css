@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("./assets/webBack.jpg"); */
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  backdrop-filter: blur(100px); /* Adjust the blur amount as needed */
+}
+
+.app-container {
+  position: relative;
+  z-index: 1;
+}
